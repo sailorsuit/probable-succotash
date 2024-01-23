@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+    font-family: 'Bitter';
+}
+
+body {
+    background: #402d3d;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.title {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 10vw;
+}
+
+.title img {
+    width: 15vw;
+    height: auto;
+    display: flex;
+}
+
+.title h2 {
+    font-family: 'Quicksand';
+    font-size: 1rem;
+    font-weight: 100;
+    color: #fff;
+    position: relative;
+    left: 60px;
+}
+
+.navbar {
+    background: aliceblue;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a {
+    font-family: 'Quicksand';
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    font-weight: 1000;
+    font-size: 1.2rem;
+    transition-duration: .4s;
+    
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 50px;
+}
+
+.post-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-nav img {
+    height: 5vh;
+}
+
+.post-img {
+    align-self: center;
+}
+
+.post-img img{
+    height: 80vh;
+    min-height: 100px;
+    margin: 20px;
+    padding: 40px;
+    border: 2px solid #fff;
+    border-radius: 5%;
+}
+
+.lower-post-nav {
+    margin-bottom: 20px;
+}
+
+.post-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    min-width: 400px;
+}
+
+.meta {
+    padding-left: 20px;
+    font-size: .75rem;
+}
+
+.meta a {
+    color: #c99ebb;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    min-width: 400px;
+}
+
+.comment {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px 5px 0 5px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 40% 10% 50%;
+}
+
+.comment.reply {
+    margin-left: 5vw;
+    border-radius: 0 0 5px 5px;
+}
+
+.comment-last {
+    margin-bottom: 10vh;
+}
+
+.grid-item-1 {
+    grid-column: 1;
+    grid-row: 1 / 4;
+    align-items: center;
+}
+
+.profile-img{
+    height: 10vh;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #fff;
+}
+
+.username {
+    font-size: 1.2rem;
+    color: #c99ebb;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+
+.footer a {
+    color: #c99ebb;
+}
+
+.text img {
+    display: none;
+}
